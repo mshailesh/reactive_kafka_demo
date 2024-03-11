@@ -1,4 +1,4 @@
-# Kafka Consumer Throughput Comparison POC
+# Kafka Consumer Throughput Comparison 
 
 ## Overview
 This Proof of Concept (POC) aims to compare the throughput of different Kafka consumers. By implementing traditional Kafka consumers, traditional Kafka consumers with executors, reactive Kafka consumers using Java Reactor Flux, and reactive Kafka consumers using reactive Java, we can analyze the performance characteristics of each approach. Throughput is measured by processing a certain number of messages and calculating the time taken for each consumer type.
